@@ -1,0 +1,17 @@
+body{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: orange;
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
