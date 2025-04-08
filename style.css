@@ -13,7 +13,7 @@ nav{
 .navTop{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .search{
@@ -47,17 +47,58 @@ nav{
     margin-right: 50px;
     cursor: pointer;
     color: lightgrey;
-    font-weight: 100;
-}
-.sliderImg{
-    width: 500px;
-    padding: 30px 0px 0px 40px;
-}
-.slider{
-    background: url("https://cdn.pixabay.com/photo/2018/05/13/21/32/shop-3398039_1280.jpg") ;
-    clip-path: polygon(0 6%, 100% 0, 100% 88%, 0 100%);
+    font-weight: 400;
 }
 
-.sliderwrapper{
+
+.slider {
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); 
+   
+  }
+
+.sliderwrapper {
     display: flex;
+    width: 500vw;
 }
+
+.sliderImg {
+    width: 50vw; 
+    height: auto; 
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.slideritem {
+    width: 100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    right:10%;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.sliderPrice{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    border: 1px solid grey;
+}
+
+
+
+   
+   
